@@ -1,0 +1,49 @@
+<!-- <button (click)="playVoice('hello')">Sound Test</button> -->
+<!-- <h1 class="page-header">Your Story:</h1> -->
+<div class="my_story">
+	<p class="story_spacing indent"></p>
+	<p class="story_spacing" *ngFor="let word of this.wordService.WORDS">
+		<span tooltip="<h5>{{word.creator}}</h5>">{{word.word}}</span>
+	</p>
+	<p class="story_spacing" *ngFor="let message of messages">
+		<span tooltip="<h5>{{message.creator}}</h5>">{{message.word}}</span>
+	</p>
+	<br><br><br><p class="text-center"><b>({{this.wordService.WORDS.length+this.messages.length}} / {{this.wordService.maxLength}} words submitted.)</b></p><br>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <table>
+	<tr><th>Name</th>
+		<th>Age</th>
+		<th>Created At</th>
+		<th>Action</th>
+	</tr>
+	<tr *ngFor="let word of this.wordService.WORDS">
+		<td>{{word.name}}</td>
+		<td>{{word.age}}</td>
+		<td>{{word.createdAt | date:"MMMM d, yyyy h:mm:ss a" }}</td>
+		<td><button (click)="delete(word._id)">Delete</button></td>
+	</tr>
+	<tr *ngFor="let message of messages">
+		<td>{{message.name}}</td>
+		<td>{{message.age}}</td>
+		<td>{{message.createdAt | date:"MMMM d, yyyy h:mm:ss a" }}</td>
+		<td></td>
+	</tr>
+</table> -->

@@ -1,0 +1,21 @@
+td{
+  height: 25px;
+}
+th{
+  border-bottom: 3px solid black;
+}
+.story_spacing{
+  font-size: 20px;
+  display: inline;
+  padding-right: 0.15em;
+}
+
+.my_story{
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.indent {
+  margin-left: 20px;
+}

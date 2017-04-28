@@ -1,18 +1,21 @@
 {
-  "name": "rats_demo",
+  "name": "word_game",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "PeterF",
   "license": "ISC",
   "dependencies": {
+    "@types/socket.io-client": "^1.4.29",
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
-    "mongoose": "^4.9.5"
+    "mongoose": "^4.9.5",
+    "socket.io": "^1.7.3",
+    "socket.io-client": "^1.7.3"
   }
 }

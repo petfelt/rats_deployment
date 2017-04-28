@@ -1,0 +1,28 @@
+<form (submit)="create()">
+  <div class="form-group">
+    <div [hidden]="this.hideMe">
+      <h3>Your Username:</h3>
+      <input class="form-control" type="text" placeholder="Creator" name="creator" [(ngModel)]="new_word.creator">
+    </div>
+  </div>
+  <div class="form-group">
+    <h3>Your Input:</h3>
+    <input type="text" class="form-control" placeholder="Word" name="word" [(ngModel)]="new_word.word">
+  </div>
+  <input type="submit" class="btn btn-info" value="Add Word">
+</form>
+
+<form (submit)="adminSubmit()">
+	<div class="form-group my_spacing">
+  	<h3>Admin Tools:</h3>
+		<div [hidden]="this.wordService.admin">
+			<input class="form-control" type="password" placeholder="Password" name="password" [(ngModel)]="admin_pass">
+		</div>
+	</div>
+	<div [hidden]="this.wordService.admin">
+		<input class="btn btn-primary my_spacing2" type="submit" value="Sign In">
+	</div>
+	<div [hidden]="!this.wordService.admin">
+		<button class="btn btn-danger my_spacing2" (click)="clear()">Clear This Story</button>
+	</div>
+</form>
