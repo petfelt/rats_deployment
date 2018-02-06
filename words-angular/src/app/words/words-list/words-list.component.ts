@@ -18,7 +18,7 @@ export class WordsListComponent implements OnInit {
   connection;
   message;
 
-  constructor(private wordService: WordService) { }
+  constructor(public wordService: WordService) { }
 
   ngOnInit() {
     this.connection = this.wordService.getMessages().subscribe(message => {

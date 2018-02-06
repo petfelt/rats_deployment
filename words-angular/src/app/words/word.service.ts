@@ -4,6 +4,7 @@ import { Http, Request, Response, Headers, RequestOptions } from "@angular/http"
 
 import { Subject } from 'rxjs/Subject';
 import { Observable } from 'rxjs/Observable';
+import 'rxjs/Rx';
 import * as io from 'socket.io-client';
 
 import { Word } from "./word"
