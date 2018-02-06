@@ -8,6 +8,10 @@
     "start": "node server",
     "heroku-postbuild": "cd words-angular && npm install"
   },
+  "engines": {
+    "node": "6.10.1",
+    "npm": "3.10.10"
+  },
   "keywords": [],
   "author": "PeterF",
   "license": "ISC",

@@ -4,7 +4,7 @@ var path = require("path");
 var app = express();
 var bodyParser = require("body-parser");
 
-var PORT = 8000
+var PORT = process.env.PORT || 8000;
 
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, "./words-angular/dist")));

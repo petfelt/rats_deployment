@@ -5,8 +5,7 @@
 /tmp
 
 # dependencies
-# Need dependencies for heroku.
-# /node_modules
+/node_modules
 
 # IDEs and editors
 /.idea
