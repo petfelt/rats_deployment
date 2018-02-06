@@ -3,10 +3,12 @@
 <div class="my_story">
 	<p class="story_spacing indent"></p>
 	<p class="story_spacing" *ngFor="let word of this.wordService.WORDS">
-		<span tooltip="<h5>{{word.creator}}</h5>">{{word.word}}</span>
+		<!-- <span tooltip="<h5>{{word.creator}}</h5>">{{word.word}}</span> -->
+		<span>{{word.word}}</span>
 	</p>
 	<p class="story_spacing" *ngFor="let message of messages">
-		<span tooltip="<h5>{{message.creator}}</h5>">{{message.word}}</span>
+		<!-- <span tooltip="<h5>{{message.creator}}</h5>">{{message.word}}</span> -->
+		<span>{{message.word}}</span>
 	</p>
 	<br><br><br><p class="text-center"><b>({{this.wordService.WORDS.length+this.messages.length}} / {{this.wordService.maxLength}} words submitted.)</b></p><br>
 </div>

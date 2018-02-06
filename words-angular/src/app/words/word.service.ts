@@ -32,7 +32,7 @@ export class WordService {
 	  		(e) => {
 	  			console.log(e)
 	  		},
-	  		() => {console.log("Continue?")}
+	  		() => {console.log("Word submitted.")}
   		)
   }
 

@@ -28,5 +28,5 @@ io.on('connection', (socket) => {
 });
 
 server.listen(PORT, function(){
-  console.log('listening on port 8000')
+  console.log('listening on port '+PORT)
 })

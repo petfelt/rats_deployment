@@ -1,0 +1,18 @@
+{
+  "/words": {
+    "target": "http://localhost:8000",
+    "secure": false
+  },
+  "/create": {
+    "target": "http://localhost:8000",
+    "secure": false
+  },
+  "/delete": {
+    "target": "http://localhost:8000",
+    "secure": false
+  },
+  "/clear": {
+    "target": "http://localhost:8000",
+    "secure": false
+  }
+}

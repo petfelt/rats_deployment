@@ -20,7 +20,7 @@ export class WordsCreateComponent implements OnInit {
   connection;
   message;
   exist;
-  regexp = new RegExp("^[a-zA-Z0-9_\"\'\.\,]+$");
+  regexp = new RegExp("^[a-zA-Z0-9_,';:\"\.\!\)\(&/?-]+$");
   admin_pass: string = ""
 
   constructor(private wordService: WordService) { }
