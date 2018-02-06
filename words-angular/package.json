@@ -16,6 +16,7 @@
     "@angular/common": "^2.4.3",
     "@angular/compiler": "^2.4.3",
     "@angular/compiler-cli": "^2.4.3",
+    "typescript": "~2.0.3",
     "@angular/core": "^2.4.3",
     "@angular/forms": "^2.4.3",
     "@angular/http": "^2.4.3",
@@ -35,7 +36,6 @@
   },
   "devDependencies": {
     "@angular/cli": "^1.0.0",
-    "@angular/compiler-cli": "^2.4.3",
     "@types/jasmine": "2.5.38",
     "@types/node": "^6.0.42",
     "codelyzer": "~2.0.0-beta.1",
@@ -48,7 +48,6 @@
     "karma-remap-istanbul": "^0.2.1",
     "protractor": "~4.0.13",
     "ts-node": "1.2.1",
-    "tslint": "^4.3.0",
-    "typescript": "~2.0.3"
+    "tslint": "^4.3.0"
   }
 }
