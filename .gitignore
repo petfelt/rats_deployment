@@ -1,3 +1,2 @@
 # dependencies
-# Needed for heroku:
-# /node_modules
+/node_modules
