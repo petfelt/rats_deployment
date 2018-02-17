@@ -30,3 +30,12 @@ io.on('connection', (socket) => {
 server.listen(PORT, function(){
   console.log('listening on port '+PORT)
 })
+
+// Files to look at:
+// server/config/routes.js
+// server/config/mongoose.js
+// both package.json's
+// proxy.conf.json
+// word.service.ts
+//
+// For localhost vs. website host, and website running power.
